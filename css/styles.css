@@ -308,7 +308,7 @@ body {
 
 .social-media-icons-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   align-items: center;
   justify-content: center;
   padding-bottom: 32px;
@@ -398,7 +398,7 @@ body {
   overflow: hidden;
 }
 
-.our-portfolio-overlay {
+.our-portfolio-overlay-text {
   position: absolute;
   padding: 40px 32px 0 32px;
   top: 0;
@@ -412,7 +412,7 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list-item:hover .image-overlay .our-portfolio-overlay {
+.portfolio-list-item:hover .image-overlay .our-portfolio-overlay-text {
   transform: translateY(0%);
 }
 
